@@ -56,7 +56,103 @@ public class CmsPage {
     private String htmlFileId;
     //数据Url
     private String dataUrl;
+	public String getSiteId() {
+		return siteId;
+	}
+	public void setSiteId(String siteId) {
+		this.siteId = siteId;
+	}
+	public String getPageId() {
+		return pageId;
+	}
+	public void setPageId(String pageId) {
+		this.pageId = pageId;
+	}
+	public String getPageName() {
+		return pageName;
+	}
+	public void setPageName(String pageName) {
+		this.pageName = pageName;
+	}
+	public String getPageAliase() {
+		return pageAliase;
+	}
+	public void setPageAliase(String pageAliase) {
+		this.pageAliase = pageAliase;
+	}
+	public String getPageWebPath() {
+		return pageWebPath;
+	}
+	public void setPageWebPath(String pageWebPath) {
+		this.pageWebPath = pageWebPath;
+	}
+	public String getPageParameter() {
+		return pageParameter;
+	}
+	public void setPageParameter(String pageParameter) {
+		this.pageParameter = pageParameter;
+	}
+	public String getPagePhysicalPath() {
+		return pagePhysicalPath;
+	}
+	public void setPagePhysicalPath(String pagePhysicalPath) {
+		this.pagePhysicalPath = pagePhysicalPath;
+	}
+	public String getPageType() {
+		return pageType;
+	}
+	public void setPageType(String pageType) {
+		this.pageType = pageType;
+	}
+	public String getPageTemplate() {
+		return pageTemplate;
+	}
+	public void setPageTemplate(String pageTemplate) {
+		this.pageTemplate = pageTemplate;
+	}
+	public String getPageHtml() {
+		return pageHtml;
+	}
+	public void setPageHtml(String pageHtml) {
+		this.pageHtml = pageHtml;
+	}
+	public String getPageStatus() {
+		return pageStatus;
+	}
+	public void setPageStatus(String pageStatus) {
+		this.pageStatus = pageStatus;
+	}
+	public Date getPageCreateTime() {
+		return pageCreateTime;
+	}
+	public void setPageCreateTime(Date pageCreateTime) {
+		this.pageCreateTime = pageCreateTime;
+	}
+	public String getTemplateId() {
+		return templateId;
+	}
+	public void setTemplateId(String templateId) {
+		this.templateId = templateId;
+	}
+	public List<CmsPageParam> getPageParams() {
+		return pageParams;
+	}
+	public void setPageParams(List<CmsPageParam> pageParams) {
+		this.pageParams = pageParams;
+	}
+	public String getHtmlFileId() {
+		return htmlFileId;
+	}
+	public void setHtmlFileId(String htmlFileId) {
+		this.htmlFileId = htmlFileId;
+	}
+	public String getDataUrl() {
+		return dataUrl;
+	}
+	public void setDataUrl(String dataUrl) {
+		this.dataUrl = dataUrl;
+	}
 
-
+    
 
 }
