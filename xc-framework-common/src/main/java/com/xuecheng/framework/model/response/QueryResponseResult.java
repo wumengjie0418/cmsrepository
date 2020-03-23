@@ -7,11 +7,19 @@ import lombok.ToString;
 @ToString
 public class QueryResponseResult extends ResponseResult {
 
-    QueryResult queryResult;
+    private QueryResult queryResult;
 
     public QueryResponseResult(ResultCode resultCode,QueryResult queryResult){
         super(resultCode);
-       this.queryResult = queryResult;
+       this.setQueryResult(queryResult);
     }
+
+	public QueryResult getQueryResult() {
+		return queryResult;
+	}
+
+	public void setQueryResult(QueryResult queryResult) {
+		this.queryResult = queryResult;
+	}
 
 }

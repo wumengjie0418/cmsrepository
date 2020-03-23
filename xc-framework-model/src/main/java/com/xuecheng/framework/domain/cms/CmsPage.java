@@ -152,7 +152,15 @@ public class CmsPage {
 	public void setDataUrl(String dataUrl) {
 		this.dataUrl = dataUrl;
 	}
+	@Override
+	public String toString() {
+		return "CmsPage [siteId=" + siteId + ", pageId=" + pageId + ", pageName=" + pageName + ", pageAliase="
+				+ pageAliase + ", pageWebPath=" + pageWebPath + ", pageParameter=" + pageParameter
+				+ ", pagePhysicalPath=" + pagePhysicalPath + ", pageType=" + pageType + ", pageTemplate=" + pageTemplate
+				+ ", pageHtml=" + pageHtml + ", pageStatus=" + pageStatus + ", pageCreateTime=" + pageCreateTime
+				+ ", templateId=" + templateId + ", pageParams=" + pageParams + ", htmlFileId=" + htmlFileId
+				+ ", dataUrl=" + dataUrl + "]";
+	}
 
-    
 
 }

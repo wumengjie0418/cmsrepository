@@ -16,5 +16,17 @@ public class CmsPageParam {
     private String pageParamName;
     //参数值
     private String pageParamValue;
+	public String getPageParamName() {
+		return pageParamName;
+	}
+	public void setPageParamName(String pageParamName) {
+		this.pageParamName = pageParamName;
+	}
+	public String getPageParamValue() {
+		return pageParamValue;
+	}
+	public void setPageParamValue(String pageParamValue) {
+		this.pageParamValue = pageParamValue;
+	}
 
 }

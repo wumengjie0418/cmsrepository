@@ -48,6 +48,9 @@ public class CmsPageRepositoryTest {
     public void testUpdate() {
         //查询对象
         Optional<CmsPage> optional = cmsPageRepository.findById("5b4b1d8bf73c6623b03f8cec");
+        //jdk1.8引入数据 Optional 类型，Optional是一个容器对象，它包括了我们需要的对象，使用isPresent方法判断所包含的对象是否为空
+        //，isPresent方法返回false则表示Optional包含对象为空，否则可以使用get()取出对象进行操作。
+        //Optional优点：1.提醒你非空判断。 2.将对象非空检测标准化。
         if(optional.isPresent()){
             CmsPage cmsPage = optional.get();
             //设置要修改值
